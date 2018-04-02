@@ -3,7 +3,7 @@ var paperButton = document.getElementById("paper");
 var scissorButton = document.getElementById("scissor");
 var playerDisp = document.getElementById("playerScore");
 var cpuDisp = document.getElementById("cpuScore");
-var outputImage = document.getElementById("outputImg")
+var outputImage = document.getElementById("outputImg");
 var playerScore = 0;
 var cpuScore = 0;
 
