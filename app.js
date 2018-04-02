@@ -6,6 +6,7 @@ var cpuDisp = document.getElementById("cpuScore");
 var outputImage = document.getElementById("outputImg");
 var resetGame = document.getElementById("reset");
 var giveUp = document.getElementById("giveup");
+
 var playerScore = 0;
 var cpuScore = 0;
 var gameOver = false;
@@ -120,15 +121,11 @@ function reset() {
 
 resetGame.addEventListener("click", function () {
     reset();
-})
+});
 
 giveUp.addEventListener("click", function () {
     if (!gameOver) {
         playerDisp.textContent = "You gave up!";
         cpuDisp.textContent = "You win!";
     }
-
-})
-=======
 });
-
